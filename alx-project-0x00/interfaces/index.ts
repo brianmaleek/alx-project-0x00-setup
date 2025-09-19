@@ -4,8 +4,8 @@ export interface PillProps {
 
 export interface ButtonProps {
     title: string;
-    styles?: string;
-    size?: 'small' | 'medium' | 'large';
-    rounded?: 'sm' | 'md' | 'full';
+    styles: string;
+    size: 'small' | 'medium' | 'large';
+    rounded: 'sm' | 'md' | 'full';
     onClick?: () => void;
 }
